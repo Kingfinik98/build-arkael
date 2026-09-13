@@ -551,7 +551,7 @@ text=$(
   cat << EOF
 🐧 *Linux Version*: $LINUX_VERSION
 📅 *Build Date*: $KBUILD_BUILD_TIMESTAMP
-💉 *KernelSU*: ${KSU}
+💉 *Variant*: ${KSU}
 ඞ *SuSFS*: $(susfs_included && echo "$SUSFS_VERSION" || echo "None")
 🎮 *Governor*: ${GOVERNOR_CHOICE^^}
 ⚙️ *Compiler*: $COMPILER_STRING
